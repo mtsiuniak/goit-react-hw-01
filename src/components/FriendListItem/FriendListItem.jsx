@@ -1,7 +1,7 @@
 import clsx from 'clsx';
-import css from '../FriendCard/FriendCard.module.css';
+import css from '../FriendListItem/FriendListItem.module.css';
 
-export default function FriendCard({ friends: { avatar, name, isOnline, id } } ) {
+export default function FriendListItem({ friends: { avatar, name, isOnline, id } } ) {
     const amountClassNames = clsx(css.text,  isOnline ? css.isOnline : css.isOffline)
     return (
         <>

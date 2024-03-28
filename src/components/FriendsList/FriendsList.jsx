@@ -1,4 +1,4 @@
-import FriendCard from "../FriendCard/FriendCard";
+import FriendListItem from "../FriendListItem/FriendListItem";
 import css from "../FriendsList/FriendsList.module.css";
 
 export default function FriendsList({ friends }) {
@@ -6,7 +6,7 @@ export default function FriendsList({ friends }) {
         <ul className={css.list}>
             {friends.map((unit) =>
                 <li className={css.item} key={unit.id}>
-                    <FriendCard friends={unit} />
+                    <FriendListItem friends={unit} />
                 </li>
             )}
         </ul>
