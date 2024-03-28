@@ -1,0 +1,15 @@
+.text {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.isOnline {
+    color: green;
+}
+.isOffline {
+    color: red;
+}
+.img{
+    display: block;
+    margin-bottom: 8px;
+}

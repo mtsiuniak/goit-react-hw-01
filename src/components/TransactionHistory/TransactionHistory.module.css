@@ -1,0 +1,21 @@
+
+.table {
+    margin: 0 auto 140px auto;
+    width: 600px;
+    border: 2px solid #070707;
+    border-radius: 4px;
+}
+.headlines {
+    background-color: #070707;
+}
+.title {
+    width: 150px;
+    padding: 8px;
+    font-size: 14px;
+    color: #fafafa;
+}
+.operationItem:nth-child(even) {
+    text-align: left;
+    padding: 8px 20px;
+    background-color: #07070750;
+}
